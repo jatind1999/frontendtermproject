@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Retail Hub</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li class="logo">
+            <a href="./index.html" class="logo-link">The Retail Store</a>
+          </li>
+          <li>
+            <div class="search-bar">
+              <ion-icon name="search-outline" class="search-icon"></ion-icon>
+              <input
+                class=""
+                placeholder="Search for products, brands and more."
+              />
+            </div>
+          </li>
+
+          <li>
+            <a href="./wishlist.html" class="wishlist"
+              ><ion-icon name="heart-outline" class="wishlist-icon"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="./cart.html" class="cart">
+              <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <p class="heading-cart">Cart</p>
+    <main class="cart">
+      <div class="added-products">
+        <div class="product">
+          <img src="./img/controller-new.png" alt="Console Controller" />
+          <div class="product-info">
+            <h1>Controller</h1>
+            <p>Item No: 1318051659</p>
+            <p>Color: White</p>
+            <p>Quantity: 1</p>
+            <p><a href="#">Remove</a> | <a href="#">Edit</a></p>
+          </div>
+          <h1>$49</h1>
+        </div>
+        <div class="product">
+          <img src="./img/coffee-new.png" alt="Console Controller" />
+          <div class="product-info">
+            <h1>Coffee</h1>
+            <p>Item No: 1417181672</p>
+            <p>Color: White</p>
+            <p>Quantity: 1</p>
+            <p><a href="#">Remove</a> | <a href="#">Edit</a></p>
+          </div>
+          <h1>$49</h1>
+        </div>
+        <div class="product">
+          <img src="./img/headphones-new.png" alt="Console Controller" />
+          <div class="product-info">
+            <h1>Headphone</h1>
+            <p>Item No: 1517052357</p>
+            <p>Color: White</p>
+            <p>Quantity: 1</p>
+            <p><a href="#">Remove</a> | <a href="#">Edit</a></p>
+          </div>
+          <h1>$49</h1>
+        </div>
+      </div>
+      <div class="summary">
+        <h1>Summary</h1>
+        <div class="promo-code">
+          <label for="promo-input">Do you have a promo code?</label>
+          <div class="promo-field">
+            <input type="text" />
+            <button class="btn">APPLY</button>
+          </div>
+        </div>
+        <div class="sub-total">
+          <p>Subtotal</p>
+          <p class="cost">$130</p>
+          <p>Shipping</p>
+          <p class="cost">$10</p>
+          <p>HST 13%</p>
+          <p class="cost">$13</p>
+        </div>
+        <div class="estimated-total">
+          <p>Estimated Total</p>
+          <p class="cost">$153</p>
+        </div>
+        <div class="checkout-btn-box">
+          <button class="checkout-btn">CHECKOUT</button>
+        </div>
+
+        <div class="need-help">Need help? Call us at 1-199-199-1998</div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="company-info">
+          <div class="address">
+            <h1>The Retail Store</h1>
+            <p>265 Yorkland Blvd #400,</p>
+            <p>North York</p>
+            <p>ON M2J 1S5</p>
+          </div>
+          <div class="about">
+            <h1>Company</h1>
+            <a href="#" class="about-link"><p>About Us</p></a>
+            <a href="./contactus.html" class="about-link"><p>Contact Us</p></a>
+          </div>
+        </div>
+        <div class="location">
+          <h1>Find Us</h1>
+          <img src="./img/location2.png" alt="" />
+        </div>
+        <div class="company"></div>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

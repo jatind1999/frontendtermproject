@@ -1,0 +1,290 @@
+@media (max-width: 3000px) {
+  .search-bar {
+    width: 550px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .product-grid {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+  }
+  .contact-form p {
+    padding: 0;
+  }
+
+  .search-bar {
+    width: 350px;
+  }
+  .search-bar input {
+    font-size: 16px;
+  }
+  .footer-grid {
+    padding: 30px;
+  }
+  .address {
+    margin-right: 20px;
+  }
+  .location img {
+    max-width: 80%;
+  }
+  .btn {
+    margin-left: 0;
+  }
+
+  .input-fields {
+    padding: 40px 100px;
+  }
+
+  .about-section {
+    padding: 0 80px;
+  }
+
+  .tagline,
+  .owner-header,
+  .our-commitment h1 {
+    font-size: 45px;
+  }
+
+  .about-section p {
+    font-size: 24px;
+  }
+
+  .added-products {
+    margin: 0 20px;
+    max-width: 90%;
+  }
+
+  .added-products img {
+    width: 250px;
+    height: 150px;
+  }
+
+  .product-info h1,
+  .product h1 {
+    font-size: 18px;
+  }
+  .product-info p,
+  .product-info a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 900px) {
+  .cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .promo-field input {
+    max-width: 70%;
+  }
+  .summary {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .search-bar {
+    max-width: 80%;
+  }
+  .footer-grid {
+    padding: 30px;
+    column-gap: 20px;
+  }
+
+  .company-info {
+    text-align: center;
+  }
+  .search-bar input {
+    font-size: 12px;
+  }
+  .tagline {
+    font-size: 45px;
+  }
+
+  .footer h1 {
+    font-size: 24px;
+  }
+  .footer p {
+    font-size: 20px;
+  }
+  .location img {
+    max-height: 70%;
+  }
+  .card {
+    max-width: 80%;
+  }
+
+  .contact-form p {
+    padding: 0 !important;
+  }
+  .contact-section {
+    margin: 0;
+  }
+
+  .input-fields input {
+    font-size: 18px;
+    max-width: 90%;
+  }
+  .input-fields label {
+    font-size: 22px;
+  }
+  label.label-email {
+    margin-right: 73px;
+  }
+  .btn {
+    margin-left: 0;
+    font-size: 22px;
+  }
+
+  .tagline,
+  .owner-header,
+  .our-commitment h1 {
+    font-size: 40px;
+  }
+
+  .about-section p {
+    font-size: 22px;
+  }
+  .commitment-icon-box {
+    grid-template-columns: 1fr;
+    padding: 50px 100px;
+  }
+
+  .about-section {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .message {
+    height: 100px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 60fr 40fr;
+  }
+  .product-info h1 {
+    font-size: 16px;
+  }
+
+  .footer h1 {
+    font-size: 14px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .location img {
+    max-height: 100px;
+  }
+  .remove-icon,
+  .cart-icon {
+    font-size: 26px;
+  }
+  .search-bar-box {
+    max-width: 10%;
+    min-width: auto;
+  }
+
+  .list-search {
+    width: 20%;
+  }
+  .search-bar input {
+    display: none;
+  }
+  .search-icon {
+    font-size: 32px;
+  }
+  .search-bar {
+    max-width: 50px;
+    color: #fff;
+    background: #000;
+  }
+
+  .input-fields {
+    max-width: 90%;
+    padding: 30px 40px;
+  }
+
+  .input-fields label {
+    font-size: 16px;
+  }
+
+  .input-fields input {
+    font-size: 14px;
+  }
+
+  .btn-box {
+    display: flex;
+    text-align: center;
+    max-width: 80%;
+  }
+  .btn {
+    max-width: 100%;
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  .about-section {
+    padding: 0 30px;
+  }
+
+  .owners {
+    grid-template-columns: 1fr;
+  }
+  .tagline,
+  .owner-header,
+  .our-commitment h1 {
+    font-size: 32px;
+  }
+
+  .about-section p {
+    font-size: 16px;
+  }
+  .commitment-icon-box {
+    grid-template-columns: 1fr;
+    padding: 35px;
+  }
+
+  .commitment-icon {
+    font-size: 32px;
+  }
+
+  .owner {
+    margin-bottom: 20px;
+  }
+  .owner-avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .owner h1 {
+    font-size: 22px;
+  }
+  .owner h2 {
+    font-size: 18px;
+  }
+
+  .product {
+    gap: 0;
+  }
+  .added-products {
+    padding: 10px;
+  }
+  .added-products img {
+    width: 100px;
+    height: 138px;
+  }
+
+  .product-info {
+    gap: 5px;
+  }
+}
