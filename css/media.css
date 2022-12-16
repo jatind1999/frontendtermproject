@@ -5,6 +5,9 @@
 }
 
 @media (max-width: 1260px) {
+  .img-toy {
+    min-height: auto;
+  }
   .product-grid {
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
@@ -90,6 +93,11 @@
     grid-template-columns: 1fr;
     justify-content: center;
     gap: 20px;
+  }
+
+  td {
+    padding-right: 5px;
+    font-size: 12px;
   }
 
   .search-bar {

@@ -7,6 +7,7 @@
     <title>The Retail Hub</title>
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/product-detail.css" />
   </head>
   <body>
     <header>
@@ -15,11 +16,11 @@
           <li class="logo">
             <a href="./index.html" class="logo-link">The Retail Store</a>
           </li>
-          <li class="search-bar-box">
+          <li>
             <div class="search-bar">
               <ion-icon name="search-outline" class="search-icon"></ion-icon>
               <input
-                class="search-input"
+                class=""
                 placeholder="Search for products, brands and more."
               />
             </div>
@@ -38,39 +39,52 @@
         </ul>
       </nav>
     </header>
-    <p class="tagline">Get products delivered within 2 hours <sup>*</sup></p>
-    <main class="product-grid">
-      <div class="card">
-        <img src="./img/videogames.jpg" class="card-img" />
-        <a href="./category.html" class="category-link">Hot Deals</a>
-        <a href="./category.html" class="card-link"></a>
+    <p class="tagline">Product Detail</p>
+    <main>
+      <div class="product-grid">
+        <div class="card">
+          <img src="./img/camera-new.png" class="card-img" />
+          <div class="product-info">
+            <h1>Camera</h1>
+          </div>
+        </div>
+
+        <div class="product-description">
+          <p>
+            Blink Indoor is a wireless, battery-powered security camera that
+            helps you check in on your home day or night with infrared night
+            vision. With long-lasting battery life, Indoor runs for up to two
+            years on two AA lithium batteries (included).
+          </p>
+          <br />
+          <p>
+            Store video clips and photos in the cloud with the Blink
+            Subscription Plan and save events locally to the Blink Sync Module 2
+            via a USB flash drive (sold separately). Get customizable motion
+            alerts on your phone
+          </p>
+          <br />
+          <p>Price: $149</p>
+
+          <div class="btns">
+            <button class="btn">Buy Now</button>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
       </div>
 
-      <div class="card">
-        <img src="./img/toy.jpg" class="card-img img-toy" />
-        <a href="./category.html" class="category-link">Toys</a>
-        <a href="./category.html" class="card-link"></a>
+      <div class="demo-video">
+        <p style="margin-top: 30px">Video</p>
+        <video src="./assets/video.mp4" controls autoplay muted>
+          Demo Video
+        </video>
       </div>
 
-      <div class="card">
-        <img src="./img/electronics.jpg" class="card-img" />
-        <a href="./category.html" class="category-link">Electronics</a>
-        <a href="./category.html" class="card-link"></a>
-      </div>
-      <div class="card">
-        <img src="./img/clothing.jpg" class="card-img" />
-        <a href="./category.html" class="category-link">Clothing</a>
-        <a href="./category.html" class="card-link"></a>
-      </div>
-      <div class="card">
-        <img src="./img/furniture.jpg" class="card-img" />
-        <a href="./category.html" class="category-link">Furniture</a>
-        <a href="./category.html" class="card-link"></a>
-      </div>
-      <div class="card">
-        <img src="./img/videogames.jpg" class="card-img" />
-        <a href="./category.html" class="category-link">Video Games</a>
-        <a href="./category.html" class="card-link"></a>
+      <div class="demo-audio">
+        <p style="margin-top: 30px">Audio</p>
+        <audio src="./assets/video.mp4" controls autoplay muted>
+          Demo Audio
+        </audio>
       </div>
     </main>
     <footer class="footer">
@@ -81,7 +95,6 @@
             <p>265 Yorkland Blvd #400,</p>
             <p>North York</p>
             <p>ON M2J 1S5</p>
-
             <div class="timings">
               <table class="table">
                 <thead>
@@ -89,7 +102,12 @@
                 </thead>
                 <tbody>
                   <tr>
+                    <td>Weekdays</td>
                     <td>9AM to 10PM</td>
+                  </tr>
+                  <tr>
+                    <td>Weekends</td>
+                    <td>8AM to 11PM</td>
                   </tr>
                 </tbody>
               </table>
